@@ -1,0 +1,2 @@
+This is a sample file loaded using AJAX (XMLHttpRequest).
+You can put any text here to demonstrate reading from a file using JavaScript.

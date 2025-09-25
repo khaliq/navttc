@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelopy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <nav>
+        <div><a href="#" class="logo">Travelopy</a></div>
+        <div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="formdiv">
+          <form action="#" method="post" id="searchform">
+            <input
+              type="search"
+              name="query"
+              id="searchinput"
+              placeholder="Search here..."
+              autocomplete="off"
+            />
+            <button role="submit" class="">Search</button>
+          </form>
+          <div class="result">
+            <div id="closeresult">x</div>
+            <div id="resultarea"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="overlay"></div>
+      <div class="container herocontent">
+        <div class="content">
+          <h1>Let Travelopy Be Your Travel Guide</h1>
+          <p>
+            Travelopy helps you discover the best destinations across the globe.
+            From famous landmarks to hidden gems, we make travel planning
+            simple. Get personalized recommendations and start exploring with
+            confidence.
+          </p>
+          <a href="#" class="btn">Book now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container aboutcontent">
+        <div>
+          <h2 class="sectionh">Who we are</h2>
+          <p>
+            At Travelopy, we believe every journey should be meaningful and
+            memorable. Our mission is to make travel planning simple by offering
+            trusted recommendations, curated destinations, and practical tips.
+            <br />
+            <br />
+            We’re passionate travelers ourselves, exploring cultures, cuisines,
+            and experiences worldwide. That passion drives us to help you
+            discover hidden gems, avoid common hassles, and enjoy trips tailored
+            to your style.
+            <br />
+            <br />
+            Whether you’re planning a quick getaway or a once-in-a-lifetime
+            adventure, Travelopy is here to guide your journey with inspiration
+            and clarity.
+          </p>
+        </div>
+        <div><img src="images/about.png" alt="" /></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contactcontent">
+        <div><img src="images/contact.png" alt="" /></div>
+
+        <div>
+          <h2 class="sectionh">Contact us</h2>
+          <form action="#" id="contactform">
+            <div class="forminput">
+              <input type="text" name="name" placeholder="Full Name" />
+            </div>
+            <div class="forminput">
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="forminput">
+              <input type="text" name="phone" placeholder="Phone" />
+            </div>
+            <div class="forminput">
+              <textarea
+                name="message"
+                id="message"
+                rows="6"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="forminput">
+              <input type="submit" class="btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footercontent container">
+        <div class="socials">
+          <span>LinkedIn</span>
+          <span>Facebook</span>
+          <span>Twitter</span>
+          <span>Youtube</span>
+          <br />
+        </div>
+        <div>
+          <span>All rights reserved @2025</span>
+        </div>
+      </div>
+    </footer>
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>
